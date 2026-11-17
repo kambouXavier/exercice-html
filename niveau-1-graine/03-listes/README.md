@@ -35,13 +35,13 @@
 
 ## Critères de réussite
 
-- [ ] Un `<h1>` et trois `<h2>`.
-- [ ] Le matériel est dans un `<ul>` avec 5 `<li>`.
-- [ ] Les étapes sont dans un `<ol>` avec 5 `<li>` principaux.
-- [ ] Les sous-étapes sont dans des `<ol>` placés **à l'intérieur** d'un `<li>` (et non directement dans le `<ol>` parent).
-- [ ] Aucun numéro n'est tapé à la main dans le texte.
-- [ ] Le lexique utilise `<dl>`, `<dt>` et `<dd>`.
-- [ ] Un `<ul>` ou un `<ol>` ne contient **que** des `<li>`.
+- [x] Un `<h1>` et trois `<h2>`.
+- [x] Le matériel est dans un `<ul>` avec 5 `<li>`.
+- [x] Les étapes sont dans un `<ol>` avec 5 `<li>` principaux.
+- [x] Les sous-étapes sont dans des `<ol>` placés **à l'intérieur** d'un `<li>` (et non directement dans le `<ol>` parent).
+- [x] Aucun numéro n'est tapé à la main dans le texte.
+- [x] Le lexique utilise `<dl>`, `<dt>` et `<dd>`.
+- [x] Un `<ul>` ou un `<ol>` ne contient **que** des `<li>`.
 
 ## Indices
 
@@ -100,8 +100,16 @@ La sous-liste se place **dans** le `<li>`, juste après son texte, **avant** la 
 ## Questions de compréhension
 
 1. Quelle est la différence entre `<ul>` et `<ol>` ? Donnez un exemple d'utilisation pour chacune.
+
+<ul> fait une liste à puces : l’ordre n’a pas d’importance et <ol> fait une liste numérotée : l’ordre compte
+
 2. Quelles balises peut-on placer directement dans un `<ul>` ?
+
+Seulement <li>. Tout le reste va à l’intérieur des <li>.
+
 3. Le saviez-vous ? Pour un botaniste, la tomate est un **fruit** : elle se forme à partir de la fleur et contient les graines. En cuisine, on la range pourtant avec les légumes.
+
+oui je sais , la tomate est botaniquement un fruit, et on la cuisine comme un légume.
 
 ## Lien avec le brief PlantEvo
 
