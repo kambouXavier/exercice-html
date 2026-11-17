@@ -83,12 +83,12 @@ Les numéros correspondent aux commentaires `TODO` dans les fichiers.
 
 ## Critères de réussite
 
-- [ ] Les 8 liens du tableau fonctionnent.
-- [ ] Tous les liens internes utilisent des chemins **relatifs** (aucun `C:\…` ni `file:///…`).
-- [ ] Le lien de retour de `pages/contact.html` utilise `../`.
-- [ ] Le lien vers la FAO s'ouvre dans un nouvel onglet et contient `rel="noopener"`.
-- [ ] Le lien e-mail commence par `mailto:`.
-- [ ] Plus aucun lien « cliquez ici » : chaque texte de lien a du sens tout seul.
+- [x] Les 8 liens du tableau fonctionnent.
+- [x] Tous les liens internes utilisent des chemins **relatifs** (aucun `C:\…` ni `file:///…`).
+- [x] Le lien de retour de `pages/contact.html` utilise `../`.
+- [x] Le lien vers la FAO s'ouvre dans un nouvel onglet et contient `rel="noopener"`.
+- [x] Le lien e-mail commence par `mailto:`.
+- [x] Plus aucun lien « cliquez ici » : chaque texte de lien a du sens tout seul.
 
 ## Indices
 
@@ -124,9 +124,21 @@ C'est normal si aucun logiciel de messagerie n'est configuré sur votre ordinate
 ## Questions de compréhension
 
 1. Quelle est la différence entre un chemin relatif et une URL absolue ? Quand utilise-t-on l'un ou l'autre ?
+
+Un chemin relatif part de la page actuelle (pour ses propres pages), alors qu’une URL absolue donne l’adresse complète (pour un site externe).
+
 2. Que signifie `../` dans un chemin ?
+
+../ veut dire « remonter d’un dossier »
+
+
 3. Pourquoi faut-il éviter les espaces et les majuscules dans les noms de fichiers ?
+
+Un espace devient %20, un lien qui marche sur votre ordinateur peut donc se casser une fois le site en ligne : mieux vaut des noms simples en minuscules
+
 4. Pourquoi « cliquez ici » est-il un mauvais texte de lien ?
+
+Parce que le texte « cliquez ici » ne dit pas où mène le lien, ce qui gêne les personnes qui utilisent un lecteur d’écran (elles n’entendent que « cliquez ici ») et les moteurs de recherche, qui ne comprennent pas la destination.
 
 ## Lien avec le brief PlantEvo
 
