@@ -39,14 +39,14 @@ Ouvrez `index.html` dans le navigateur **avant** de commencer : tout le texte es
 
 ## Critères de réussite
 
-- [ ] Il y a un seul `<h1>` dans la page.
-- [ ] Les niveaux de titres se suivent sans saut : pas de `<h3>` directement après le `<h1>`.
-- [ ] Il y a 4 `<h2>` et 4 `<h3>`.
-- [ ] Plus aucun texte n'est « libre » dans le `<body>` : tout est dans une balise.
-- [ ] *Zea mays* est dans une balise `<i>`.
-- [ ] Il y a au moins deux `<strong>` et un `<em>`.
-- [ ] `<br>` n'est utilisé qu'une seule fois, dans les crédits (et jamais pour « faire de l'espace »).
-- [ ] Le code est indenté et commenté.
+- [x] Il y a un seul `<h1>` dans la page.
+- [x] Les niveaux de titres se suivent sans saut : pas de `<h3>` directement après le `<h1>`.
+- [x] Il y a 4 `<h2>` et 4 `<h3>`.
+- [x] Plus aucun texte n'est « libre » dans le `<body>` : tout est dans une balise.
+- [x] *Zea mays* est dans une balise `<i>`.
+- [x] Il y a au moins deux `<strong>` et un `<em>`.
+- [x] `<br>` n'est utilisé qu'une seule fois, dans les crédits (et jamais pour « faire de l'espace »).
+- [x] Le code est indenté et commenté.
 
 ## Indices
 
@@ -93,9 +93,25 @@ Le `<br>` se place **à l'intérieur** du paragraphe, entre les deux lignes à s
 ## Questions de compréhension
 
 1. Pourquoi ne doit-il y avoir qu'un seul `<h1>` par page ? (Pensez aux moteurs de recherche.)
+
+Le <h1> annonce le sujet principal de la page. Les moteurs de recherche s’en servent pour comprendre de quoi parle la page, et les lecteurs d’écran s’en servent pour se repérer. c'est pas interdit , mais un seul <h1> est la bonne pratique.
+
+
 2. Pourquoi ne faut-il pas choisir une balise de titre (`<h2>`, `<h3>`…) pour sa **taille** d'affichage ?
+
+Les balises <h1> à <h6> décrivent la hiérarchie du contenu : <h2> est une sous-partie de <h1>, <h3> une sous-partie de <h2>, comme dans un plan.
+
+
 3. Quelle est la différence entre `<strong>` et `<b>` ? Entre `<em>` et `<i>` ?
+
+-<strong>	exprime une importance forte (« attention, danger ») tandis que <b>	exprime la mise en évidence visuelle sans importance particulière (mot-clé, nom de produit)
+
+-<em>	met l'accent sur un mot qui change le sens de la phrase tandis que <i>	exprime Voix différente : mot étranger, terme technique, pensée
+
+
 4. Que fait le navigateur quand il rencontre plusieurs espaces ou retours à la ligne dans le code ?
+
+Il les réduit à un seul espace. Taper dix espaces ou trois retours à la ligne dans le code ne change donc rien à l’affichage.
 
 ## Lien avec le brief PlantEvo
 
